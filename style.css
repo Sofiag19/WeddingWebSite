@@ -117,3 +117,31 @@ header {
   }
 
 }
+
+/*==== PROGRAM STYLES ====*/
+.program {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.inside-program h3 {
+  font-family: 'Great Vibes';
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inside-program p:first-of-type {
+  font-family: 'Libre Baskerville';
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+.inside-program p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
