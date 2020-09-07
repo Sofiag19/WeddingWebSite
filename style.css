@@ -7,6 +7,7 @@ body {
   color: #444349;
 }
 
+
 /*==== HEADER STYLES ====*/
 
 header {
@@ -323,4 +324,12 @@ header {
 
  a, span {
    color: #bd806e;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #eda087;
  }
