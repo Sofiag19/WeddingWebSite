@@ -200,3 +200,123 @@ header {
   margin-bottom: 20px;
   font-family: 'Libre Baskerville';
 }
+
+/*==== QUESTIONS STYLES ====*/
+
+.questions {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 40px 0;
+}
+
+.questions h2 {
+  font-family: 'Great Vibes';
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inside-questions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inside-questions hr {
+  display: none;
+}
+
+.box-question {
+  width: 370px;
+}
+
+.box-question h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.box-question p {
+  font-size: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+  margin: 30px auto 15px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .inside-questions {
+    display: block;
+  }
+  .box-question {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .inside-questions hr {
+    display: block;
+    width: 300px;
+    border: 1px solid #d2ba87;
+    margin: 20px auto;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .inside-questions {
+    display: block;
+  }
+  .box-question {
+    width: 290px;
+    margin: 0 auto;
+  }
+
+  .inside-questions hr {
+    display: block;
+    width: 150px;
+    border: 1px solid #d2ba87;
+    margin: 20px auto;
+  }
+
+}
+
+/*==== CONTACTS STYLES ====*/
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  text-align: center;
+}
+
+.inside-contacts {
+  margin: 0 6px;
+}
+
+.inside-contacts h2 {
+  font-family: 'Great Vibes';
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.inside-contacts h2, .inside-contacts p {
+  margin-bottom: 20px;
+}
+
+.inside-contacts p {
+  font-family: 'Libre Baskerville';
+  font-weight: bold;
+}
+
+/*==== FOOTER STYLES ====*/
+ footer {
+  text-align: center;
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 40px 0;
+ }
