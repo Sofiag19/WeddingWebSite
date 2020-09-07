@@ -316,7 +316,11 @@ header {
 /*==== FOOTER STYLES ====*/
  footer {
   text-align: center;
-  background-color: hsla(100,0%,0%,.6);
+  background-color: #606060;
   color: #d2ba87;
   padding: 40px 0;
+ }
+
+ a, span {
+   color: #bd806e;
  }
